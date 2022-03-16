@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,300&family=Open+Sans:ital,wght@0,600;1,300&family=Source+Code+Pro:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color:#fff;
+}
+.wrapper{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article{
+    background-color: #fff7f7;
+    border-radius: 10px;
+}
+.lancamento{
+    background-color: red;
+    color: #fff;
+}
+.valor_novo{
+    color: #4E9FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 155px;
+}
+.glider-track{
+    justify-content: space-between;
+}

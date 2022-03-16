@@ -1,0 +1,226 @@
+
+#secao_banner_produtos{
+    background-image: url(../img/Imagem-de-fundo-da-seção-produtos.jpg);
+    height: 810px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    padding: 80px 0;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+#botao{
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+.botao:hover{
+    opacity: 1;
+} 
+.botao{
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+}
+.etiqueta_lancamento{
+    background-color: red;
+    color: #fff;
+    width: 80px;
+    height: 26px;
+    font-size: 10px;
+    border-radius: 15px;
+    padding:8px 7px;
+
+}
+.cards{
+    box-shadow: -5px 5px 5px black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 60px;
+    margin-bottom: 30px;
+    width: 382px;
+    /* height: 202px; */
+    padding: 18px;
+}
+.cards > div > div > p{
+    margin-top: 15px;
+}
+.cards > div > p{
+    margin-bottom: 72px;  
+    text-align: center;
+    padding: 0 15px;
+}
+.cards > p{
+    color: #4E9FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.conteudo_direita_card{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.valor{
+    margin:20px 0 ;
+    color: blue;
+    font-size:20px;
+}
+.todos_os_cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+.imagens_cards{
+    width: 130px;
+    height: 130px;
+    margin-right: 20px;
+}
+.cards > p{
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+section > div >p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+a:hover{
+    background-color: rgb(243, 243, 243);
+    opacity: 1;
+}
+.cards_games{ 
+    border-radius: 15px;
+    max-width: 281px;
+    width: 280px;
+    height: 480px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho_cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+    width: 100%;
+}
+.etiqueta{
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.novo{
+    background-color: blue;
+    color: #fff;
+}
+.pre_venda{
+    background-color: red;
+    color: #fff;
+}
+#games_cards{
+    flex-wrap: wrap;
+}
+img{
+    width: 150px;
+    height: 200px;
+    align-items: center;
+    margin-left: 15px;
+}
+.texto_games{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.valor_novo{
+    color: #4E9FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+#form_contato{
+    margin-top: 64px;
+}
+.inputs_form{
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+.input_text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+.input_textarea{
+    width: 100%;
+}
+.input_text > label{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+.input_text > input, .input_text > textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b3b3b3;
+    /*border: 2px solid #bc3fdb;*/
+    background-color: #f3f5f7;
+    color: #000000;
+}
+.input_text > input::placeholder, .input_text > textarea::placeholder{
+    color: #727272;
+}
+.input_text > input:focus, .input_text > textarea:focus{
+    outline: none;
+    border-color: #000000;
+}
+.input_textarea > textarea{
+    resize: none;
+    height: 150px;
+}
+#btn_enviar{
+    font-size: 18px;
+    padding: 22px 42px;
+    background: linear-gradient(90deg, #030303 0%, #000000 100%);
+    border-radius: 5px;
+    border: none;
+    color: #f3f5f7;
+    margin-bottom: 40px;
+}
+#btn_enviar:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(202, 202, 202, 0.993);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+}

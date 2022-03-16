@@ -1,0 +1,255 @@
+#secao_banner {
+    /* background-color:#c4c4c4; */
+    background-image: url(../img/surface-30f2UKzCMC0-unsplash.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 810px;
+}
+
+/* body {
+    padding:30px;
+    font:normal 12px/1.5 Arial, sans-serif;
+} */
+#cabecalho_principal {
+    padding: 32px;
+}
+
+#logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    width: 180px;
+    height: 170px;
+}
+
+#botoes_cabecalho {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.botoes:hover {
+    opacity: 0.6;
+}
+
+.botoes {
+    padding: 10px;
+}
+
+/* copiado do site para fazer a msg aparecer */
+.field-tip {
+    position: relative;
+}
+
+.field-tip .tip-content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    /* - top padding */
+    width: 200px;
+    margin-right: -220px;
+    /* width + left/right padding */
+    padding: 5px;
+    opacity: 0;
+    transition: opacity 250ms ease-out;
+}
+
+/* <http://css-tricks.com/snippets/css/css-triangle/> */
+.field-tip .tip-content:before {
+    content: ' ';
+    /* Must have content to display */
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    /* 2 x border width */
+    width: 0;
+    height: 0;
+    margin-top: -6px;
+    /* - border width */
+    border: 8px solid transparent;
+    border-right-color: #333;
+}
+
+.field-tip:hover .tip-content {
+    right: -20px;
+    opacity: 1;
+}
+
+/* final */
+#icone_cabecalho2:hover::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f70c";
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#icone_cabecalho2:hover {
+    opacity: 0.6;
+}
+
+#icone_cabecalho1:hover {
+    opacity: 0.5;
+}
+
+#icones_cabecalho {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.padding_icones {
+    padding: 13px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 170px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 155px;
+}
+
+.cards {
+    width: 30%;
+    max-width: 300px;
+    height: 480px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+}
+
+.etiqueta {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.promocao {
+    background-color: blue;
+    color: #fff;
+}
+
+.valor_antigo {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.valor_novo {
+    color: #4E9FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#card2>p {
+    margin-bottom: 0px;
+}
+
+.imagens_cards {
+    height: 220px;
+}
+
+#img3 {
+    height: 200px;
+}
+
+#img_esq {
+    margin-right: 120px;
+}
+
+section>div>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#img_direita {
+    margin-top: 175px;
+    margin-left: 120px;
+    margin-bottom: 145px;
+}
+
+#segundo_sobre_nos {
+    margin-top: 200px;
+    margin-bottom: 220px;
+}
+
+#rede_social {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.icon_rodapé {
+    padding: 8px;
+    font-size: 25px;
+}
+
+#horario {
+    margin-bottom: 14px;
+}
+
+.p_rodape {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#icones_pagamento {
+    width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#final {
+    background-color: rgba(202, 202, 202, 0.993);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+}
+
+a>p {
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+section>div>a:hover {
+    background-color: #f3f3f3fd;
+    border-radius: 15px;
+}
+
+.cards:hover {
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    opacity: 0.8;
+}
